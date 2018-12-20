@@ -55,7 +55,7 @@ ROOT_URLCONF = 'djangowebapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\Tejhaskar\Desktop\djangowebapp\djangowebapp\template'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
